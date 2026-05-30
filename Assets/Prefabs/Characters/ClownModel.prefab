@@ -327,7 +327,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 4
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -5248,8 +5248,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieAttack
   healingShroudDebuff: {fileID: 0}
-  timeBetweenAttacks: 0.5
-  attackDamage: 10
+  timeBetweenAttacks: 2
+  attackDamage: 20
   animator: {fileID: 406875332618374920}
 --- !u!114 &6778427105271020402
 MonoBehaviour:
@@ -5264,7 +5264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieHealth
   Spawner: {fileID: 0}
-  healthToRest: 100
+  healthToRest: 60
   cyclesToCure: 6
   timeUntilRelapse: 30
   sinkSpeed: 2.5
